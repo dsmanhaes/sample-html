@@ -1,0 +1,75 @@
+/* Seletores
+  * - Universal
+  Tag HTML
+  #id - Id de uma tag HTML
+  .classe
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#titulo {
+  background-color: #ccc;
+  color: #333;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin: 10px;
+}
+
+.texto {
+  font-size: small;
+}
+
+.texto:hover {
+  background-color: #333;
+}
+
+.photo {
+  width: 100%;
+}
+
+.social {
+  width: 50px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.container > div {
+  width: 500px;
+}
+
+.nav-button {
+  margin: 20px;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.nav-button:hover {
+  background-color: red;
+}
+
+hr {
+  display: none;
+}
