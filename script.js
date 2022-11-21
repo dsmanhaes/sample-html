@@ -1,13 +1,9 @@
-function handleClick() {
-    document.querySelector('#titulo').innerHTML = 'Saitama';
-}
+import { handleCLick } from './services/handleClick.js';
+import { handleMove } from './services/handleMove.js';
+import { handleOut } from './services/handleOut.js';
 
-function handleMove() {
-    document.querySelector('#titulo').innerHTML = 'Saitama';
-}
-
-function handleOut() {
-    document.querySelector('#titulo').innerHTML = 'Diogo Manhães';
-}
+window.handleCLick = handleCLick;
+window.handleMove = handleMove;
+window.handleOut = handleOut
 
 console.log('Estou aqui!!');
